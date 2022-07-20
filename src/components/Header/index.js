@@ -1,11 +1,13 @@
 import React from "react";
+import Logo from '../../assets/logo.svg';
 import * as C from "./styles";
+
 
 const Header = () => {
   return (
     <C.Container>
       <C.Header>
-        <C.Title> Controle Financeiro do Motorista </C.Title>
+        <img src={Logo} alt="Controle" />
       </C.Header>
     </C.Container>
   );

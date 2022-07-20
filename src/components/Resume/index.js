@@ -7,10 +7,9 @@ import {
   FaDollarSign,
 } from "react-icons/fa";
 
+
 const Resume = ({ income, expense, total }) => {
-  <script>
-    document.getElementByID("Entradas").style.color = "green";
-  </script>
+
   return (
     <C.Container>
       <ResumeItem
